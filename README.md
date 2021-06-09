@@ -1,10 +1,10 @@
 # Sexual Harassments and Child Abuse Prediction
 
-Determining the Relationship between Sexual Harassment and Child Abuse Occurrences with the Location of the Incidents with Machine Learning Principles (Example of a Case Study in Los Angeles crime arrest data)
+Determining the Relationship between Sexual Harassment and Child Abuse Occurrences with the Location of the Incidents with Machine Learning Principles (Example of a Case Study in Los Angeles Crime Data)
 
 ## Important Input Feature
 
-Data Set from:
+Data set from:
 https://www.kaggle.com/cityofLA/los-angeles-crime-arrest-data
 
 1. Year
@@ -13,7 +13,7 @@ https://www.kaggle.com/cityofLA/los-angeles-crime-arrest-data
 
 2. Month
 
-* The Month the crime occurred
+* The month the crime occurred
 
 3. Day
 
@@ -50,7 +50,7 @@ https://www.kaggle.com/cityofLA/los-angeles-crime-arrest-data
 
 11. Address
 
-Address when the crime occurred
+* Address when the crime occurred
 
 12. Latitude
 
@@ -62,7 +62,7 @@ Address when the crime occurred
 
 ## Target 
 
-1. Type of crime and its Index
+1. Type of crime and its index number
 
 * LETTERS, LEWD  -  TELEPHONE CALLS, LEWD                      (7)
 
@@ -100,10 +100,10 @@ Address when the crime occurred
 
 1. Taking data from Kaggle
 2. Select data related to sexual harassments and child abuse
-3. Separate Latitude, longitude, and  Date occurred in one frame each
+3. Separate latitude, longitude, and  date occurred in one frame each
 4. Separate Date Occurred to year, month, day, day of week, and quarter
-5. Convert some data to numeric, and label with label encoder()
-7. Fix data weird data, and delete outlier data
+5. Convert some data to numeric, and label with label encoder
+7. Fix data weird data and delete outlier data
 8. Merge all data frame which needs to training
 9. Plot histogram to visualization type of crime and heatmap
 10.Plot to map see the distribution of type crime at Los Angeles
