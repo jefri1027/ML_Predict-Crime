@@ -1,6 +1,6 @@
 # Sexual Harassments and Child Abuse Prediction
 
-Determining the Relationship between Sexual Harassment and Child Abuse Occurrences with the Location of the Incidents with Machine Learning Principles (Example of a Case Study in Los Angeles Crime Data)
+Determining the Relationship between Sexual Harassments and Child Abuse Occurrences with the Location of the Incidents with Machine Learning Principles (Example of a Case Study in Los Angeles Crime Data)
 
 ## Important Input Feature
 
@@ -101,7 +101,7 @@ https://www.kaggle.com/cityofLA/los-angeles-crime-arrest-data
 1. Taking data from Kaggle
 2. Select data related to sexual harassments and child abuse
 3. Separate latitude, longitude, and  date occurred in one frame each
-4. Separate Date Occurred to year, month, day, day of week, and quarter
+4. Separate date occurred to year, month, day, day of week, and quarter
 5. Convert some data to numeric, and label with label encoder
 7. Fix data weird data and delete outlier data
 8. Merge all data frame which needs to training
@@ -110,13 +110,13 @@ https://www.kaggle.com/cityofLA/los-angeles-crime-arrest-data
 
 Machine Learning (Neural Network)
 
-11. Selected Feature and Target Data
+11. Selected feature and target data
 12. Normalization data (improve training data)
 13. Make callback function
-14. Split data, and tuning(train and validate)
-15. Set Model layer
+14. Split and tuning data (train and validate)
+15. Set model layer
 16. Train the data
-17. Plot Accuracy and loss based on training vs validation
+17. Plot accuracy and loss based on training vs validation
 18. Take a data model to predict
 19. Test prediction
-20. Save the model with TFlite type
+20. Save the model with TensorFlow Lite type
